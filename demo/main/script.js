@@ -33,60 +33,60 @@ angular.module('app')
 
 	// these map directly to gridsterItem options
 	$scope.standardItems = [{
-		sizeX: 2,
-		sizeY: 1,
-		row: 0,
-		col: 0
+		sizeX: 20,
+		sizeY: 10,
+		row: 00,
+		col: 00
 	}, {
-		sizeX: 2,
-		sizeY: 2,
-		row: 0,
-		col: 2
+		sizeX: 20,
+		sizeY: 20,
+		row: 00,
+		col: 20
 	}, {
-		sizeX: 2,
-		sizeY: 1,
-		row: 2,
-		col: 1
+		sizeX: 20,
+		sizeY: 10,
+		row: 20,
+		col: 10
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 2,
-		col: 3
+		sizeX: 10,
+		sizeY: 10,
+		row: 20,
+		col: 30
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 2,
-		col: 4
+		sizeX: 10,
+		sizeY: 10,
+		row: 20,
+		col: 40
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 0,
-		col: 4
+		sizeX: 10,
+		sizeY: 10,
+		row: 00,
+		col: 40
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 0,
-		col: 5
+		sizeX: 10,
+		sizeY: 10,
+		row: 00,
+		col: 50
 	}, {
-		sizeX: 2,
-		sizeY: 1,
-		row: 1,
-		col: 0
+		sizeX: 20,
+		sizeY: 10,
+		row: 10,
+		col: 00
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 1,
-		col: 4
+		sizeX: 10,
+		sizeY: 10,
+		row: 10,
+		col: 40
 	}, {
-		sizeX: 1,
-		sizeY: 2,
-		row: 1,
-		col: 5
+		sizeX: 10,
+		sizeY: 20,
+		row: 10,
+		col: 50
 	}, {
-		sizeX: 1,
-		sizeY: 1,
-		row: 2,
-		col: 0
+		sizeX: 10,
+		sizeY: 10,
+		row: 20,
+		col: 00
 	}];
 
 	// these are non-standard, so they require mapping options
