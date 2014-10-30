@@ -21,6 +21,7 @@ angular.module('app')
 		outerMargin: false,
 		pushing: true,
 		floating: true,
+		columns: 60,
 		draggable: {
 			enabled: false
 		},
